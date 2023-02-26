@@ -12,6 +12,7 @@ html {
     box-sizing: border-box;
 }
 
+
 .container {
 
     width: 100%;
@@ -21,14 +22,24 @@ html {
     grid-template-rows: auto 1fr;
 }
 
+
+.main-content {
+    background-color: #f1f5f9;
+}
+
+
+/* SIDEBAR ELEMENTS */
+
 .sidebar {
     grid-column: 1;
     grid-row: 1 / span 2;
 
     color: #fff;
     background-color: #34d399;
+
+    display: grid;
+    align-content: start;
+    row-gap: 50px;
+    padding: 15px;
 }
 
-.main-content {
-    background-color: #f1f5f9;
-}
