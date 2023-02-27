@@ -60,3 +60,20 @@ ul {
     gap: 30px;
 }
 
+.search-bar {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.search-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search-items > * {
+    margin-right: 25px;
+}
+
+
