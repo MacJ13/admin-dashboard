@@ -110,7 +110,7 @@ ul {
     padding: 1.5rem 1rem;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 300px;
     grid-auto-rows: auto;
     gap: 1.25rem;
 }
@@ -164,6 +164,13 @@ ul {
 
 .announcement > .info{
     padding: 4px 5px;
+}
+
+.announcement .desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .announcements > h3 {
