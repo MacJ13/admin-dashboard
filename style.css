@@ -220,11 +220,6 @@ p {
     background-color: #34d399;
 }
 
-.acount-name {
-    align-self: end;
-}
-
 .account-desc {
-    align-self: start;
     font-size: 85%;
 }
