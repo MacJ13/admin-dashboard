@@ -115,3 +115,17 @@ ul {
     gap: 1.25rem;
 }
 
+.projects {
+    grid-row: 1 / span 2;
+}
+
+.projects > h3 {
+    margin-bottom: 0.5rem;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
