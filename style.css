@@ -154,3 +154,14 @@ ul {
     padding: 1.5rem 1.5rem;
 }
 
+
+
+.announcements > h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+.trending > h3{
+    margin-bottom: 0.5rem;
+}
+
