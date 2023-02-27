@@ -154,7 +154,17 @@ ul {
     padding: 1.5rem 1.5rem;
 }
 
+.announcement:not(.announcement:last-child)::after {
+    display: block;    
+    content: '';
+    width: 100%;
+    border-bottom: 2px solid #e2e2e2;
+    margin: 1rem 0;
+}
 
+.announcement > .info{
+    padding: 4px 5px;
+}
 
 .announcements > h3 {
     margin-bottom: 0.5rem;
