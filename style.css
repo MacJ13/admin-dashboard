@@ -146,6 +146,9 @@ p {
     border-left: #34d399 5px solid;
 }
 
+.project-card .title {
+    margin-bottom: 0.5rem;
+}
 
 .project-card .icons{
     display: grid;
