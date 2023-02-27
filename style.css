@@ -129,12 +129,9 @@ ul {
     gap: 1.5rem;
 }
 
-.project-card {
+.project-card { 
     padding: 1.5rem 1.5rem 1.5rem 1.25rem;
-    background-color: #fff;
     border-left: #34d399 5px solid;
-    border-radius: 5px;
-    box-shadow: 4px 5px 5px -2px #dbdbdb;
 }
 
 .project-card .icons{
@@ -143,4 +140,11 @@ ul {
     justify-items: right;
     justify-content: right;
     gap: 1.5rem;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px -2px #dbdbdb;
+    
+    background-color: #fff;
 }
