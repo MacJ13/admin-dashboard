@@ -77,3 +77,14 @@ ul {
 }
 
 
+.user-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 15px;
+ 
+ }
+ 
+ .user-info .icon-1{
+     grid-row: 1 / span 2;
+ }
+ 
