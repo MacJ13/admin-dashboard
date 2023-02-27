@@ -145,14 +145,9 @@ p {
     padding: 1.5rem 1.5rem 1.5rem 1.25rem;
     border-left: #34d399 5px solid;
 }
-.project-card > .text {
 
-    /* margin-bottom: 2.5rem;
-    font-size: 105%; */
-}
 
 .project-card .icons{
-    
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-items: right;
