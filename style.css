@@ -181,6 +181,8 @@ p {
 }
 
 .buttons button {
+    position: relative;
+    top: 0;
     appearance: none;
     margin-right: 25px;
     align-self: center;
@@ -194,6 +196,16 @@ p {
     color: #fff;
     font-weight: 600;
     letter-spacing: 0.5px;
+
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+.buttons button:active {
+    top: 3px;
 }
  
 
