@@ -62,7 +62,7 @@ p {
 }
 
 .search-bar {
-    grid-column: 1 / span 2;
+    grid-column: 1;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
 }
@@ -92,6 +92,7 @@ p {
 }
 
 .search-items {
+    grid-column: 2;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -103,6 +104,7 @@ p {
 
 
 .user-info {
+    grid-column: 1 / span 1;
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 15px;
@@ -117,6 +119,7 @@ p {
  
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .buttons button {
@@ -125,10 +128,14 @@ p {
     align-self: center;
     justify-self: center;
     padding: 12px 0px;
-    width: 90px;
+    width: 100px;
     border: none;
     border-radius: 25px;
     
+    background-color: #34d399;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
  
 
