@@ -116,8 +116,10 @@ p {
     align-items: center;
 }
 
-.search-box .icon-test {
-    margin-right: 1.5rem;
+.search-box .search-icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 1rem;
 }
 
 .search-box  input{
@@ -126,7 +128,7 @@ p {
     border: none;
     background-color: #f1f5f9;
     padding: 8px 16px;
-    font-size: 1rem;
+    font-size: 95%;
 
     border-radius: 25px;
 }
