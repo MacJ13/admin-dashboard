@@ -126,6 +126,12 @@ p {
     height: 25px;
     width: 25px;
     margin-right: 1rem;
+
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    fill:#34d399;
 }
 
 .search-box  input{
