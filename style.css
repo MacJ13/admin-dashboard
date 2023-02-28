@@ -67,6 +67,30 @@ p {
     grid-template-columns: 1.5fr 1fr;
 }
 
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box .icon-test {
+    margin-right: 1.5rem;
+}
+
+.search-box  input{
+    flex: 1;
+    appearance: none;
+    border: none;
+    background-color: #f1f5f9;
+    padding: 8px 16px;
+    font-size: 1rem;
+
+    border-radius: 25px;
+}
+
+.search-box  input:focus{
+    outline: none;
+}
+
 .search-items {
     display: flex;
     justify-content: center;
