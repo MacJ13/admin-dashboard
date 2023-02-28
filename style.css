@@ -116,7 +116,7 @@ p {
     align-items: center;
 }
 
-.search-box .search-icon {
+.search-icon {
     height: 25px;
     width: 25px;
     margin-right: 1rem;
@@ -141,6 +141,7 @@ p {
     grid-column: 2;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
