@@ -62,7 +62,11 @@ p {
     margin-right: 0.5rem;
 }
 
-
+.avatar {
+    height: 40px;
+    width: 40px;
+    background-color: #34d399;
+}
 
 .category-menu {
     display: grid;
@@ -155,11 +159,15 @@ p {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 15px;
- 
+
+    align-items: center;
  }
  
- .user-info .icon-1{
-     grid-row: 1 / span 2;
+ .user-info .avatar{
+    height: 60px;
+    width: 60px;
+
+    background-color: #34d399;
  }
 
  .buttons {
@@ -297,11 +305,8 @@ p {
     align-items: center;
 }
 
-.account-photo {
+.account .avatar {
     grid-row: 1 / span 2;
-    width: 45px;
-    height: 45px;
-    background-color: #34d399;
 }
 
 .account-desc {
